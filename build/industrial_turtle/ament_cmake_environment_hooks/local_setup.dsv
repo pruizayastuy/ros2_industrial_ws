@@ -1,0 +1,4 @@
+source;share/industrial_turtle/environment/ament_prefix_path.sh
+source;share/industrial_turtle/environment/library_path.sh
+source;share/industrial_turtle/environment/path.sh
+source;share/industrial_turtle/environment/pythonpath.sh

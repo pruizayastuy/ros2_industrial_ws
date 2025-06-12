@@ -1,0 +1,409 @@
+[0.000000] (-) TimerEvent: {}
+[0.005863] (industrial_turtle) JobQueued: {'identifier': 'industrial_turtle', 'dependencies': OrderedDict()}
+[0.007420] (industrial_turtle) JobStarted: {'identifier': 'industrial_turtle'}
+[0.025868] (industrial_turtle) JobProgress: {'identifier': 'industrial_turtle', 'progress': 'cmake'}
+[0.031085] (industrial_turtle) Command: {'cmd': ['/usr/bin/cmake', '/home/pruizayastuy/ros2_industrial_ws/src/industrial_turtle', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCATKIN_SYMLINK_INSTALL=ON', '-DCMAKE_INSTALL_PREFIX=/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle'], 'cwd': '/home/pruizayastuy/ros2_industrial_ws/build/industrial_turtle', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GTK_CSD', '0'), ('USER', 'pruizayastuy'), ('LC_TIME', 'es_ES.UTF-8'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1907'), ('ROS_PACKAGE_PATH', '/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('XDG_CACHE_HOME', '/home/pruizayastuy/.cache'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', 'firefox'), ('HOME', '/home/pruizayastuy'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/pruizayastuy/ros2_industrial_ws'), ('TERM_PROGRAM_VERSION', '1.100.3'), ('DESKTOP_SESSION', 'Lubuntu'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'es_ES.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QT_QPA_PLATFORMTHEME', 'lxqt'), ('COLCON_PREFIX_PATH', '/home/pruizayastuy/ros2_industrial_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pruizayastuy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/lib/x86_64-linux-gnu/pkgconfig:/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('SAL_VCL_QT5_USE_CAIRO', 'true'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('SAL_USE_VCLPLUGIN', 'qt5'), ('PATH', '/opt/ros/humble/bin:/home/pruizayastuy/.local/bin:/home/pruizayastuy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'lxqt-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'es_ES.UTF-8'), ('XDG_CURRENT_DESKTOP', 'LXQt'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XDG_DATA_HOME', '/home/pruizayastuy/.local/share'), ('XDG_CONFIG_HOME', '/home/pruizayastuy/.config'), ('XDG_SESSION_DESKTOP', ''), ('XAUTHORITY', '/home/pruizayastuy/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-643cb370f4.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXA8wUWe/agent.1809'), ('AMENT_PREFIX_PATH', '/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'LXQt'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LXQT_SESSION_CONFIG', 'session'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('XDG_VTNR', '1'), ('PWD', '/home/pruizayastuy/ros2_industrial_ws/build/industrial_turtle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-Lubuntu:/etc/xdg:/etc:/usr/share'), ('XDG_DATA_DIRS', '/usr/share/Lubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/local/lib/python3.10/dist-packages:/home/pruizayastuy/ros2_industrial_ws/build/industrial_turtle:/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('QT_PLATFORM_PLUGIN', 'lxqt'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle')]), 'shell': False}
+[0.099527] (-) TimerEvent: {}
+[0.155592] (industrial_turtle) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.204567] (-) TimerEvent: {}
+[0.271168] (industrial_turtle) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.290126] (industrial_turtle) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.304829] (-) TimerEvent: {}
+[0.404137] (industrial_turtle) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.407301] (-) TimerEvent: {}
+[0.413381] (industrial_turtle) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.414308] (industrial_turtle) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.415017] (industrial_turtle) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.419089] (industrial_turtle) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.507547] (-) TimerEvent: {}
+[0.580838] (industrial_turtle) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.594763] (industrial_turtle) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.596809] (industrial_turtle) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.597596] (industrial_turtle) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.601146] (industrial_turtle) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.610343] (-) TimerEvent: {}
+[0.711338] (-) TimerEvent: {}
+[0.806067] (industrial_turtle) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.811634] (-) TimerEvent: {}
+[0.920764] (-) TimerEvent: {}
+[0.946089] (industrial_turtle) StdoutLine: {'line': b'-- Found rclpy: 3.3.16 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[0.946329] (industrial_turtle) StdoutLine: {'line': b'-- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.004344] (industrial_turtle) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.004623] (industrial_turtle) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.013625] (industrial_turtle) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.028523] (industrial_turtle) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.028776] (-) TimerEvent: {}
+[1.055947] (industrial_turtle) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.103846] (industrial_turtle) StdoutLine: {'line': b'-- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)\n'}
+[1.150333] (industrial_turtle) StdoutLine: {'line': b'-- Found std_srvs: 4.8.0 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[1.150522] (-) TimerEvent: {}
+[1.160555] (industrial_turtle) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.298273] (-) TimerEvent: {}
+[1.401034] (-) TimerEvent: {}
+[1.505646] (-) TimerEvent: {}
+[1.511200] (industrial_turtle) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.614239] (-) TimerEvent: {}
+[1.729795] (-) TimerEvent: {}
+[1.832862] (-) TimerEvent: {}
+[1.937249] (-) TimerEvent: {}
+[2.038346] (-) TimerEvent: {}
+[2.104417] (industrial_turtle) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.171286] (-) TimerEvent: {}
+[2.282044] (-) TimerEvent: {}
+[2.330183] (industrial_turtle) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.358353] (industrial_turtle) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[2.358547] (industrial_turtle) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.382340] (-) TimerEvent: {}
+[2.410826] (industrial_turtle) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[2.411064] (industrial_turtle) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.411128] (industrial_turtle) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.411179] (industrial_turtle) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.437139] (industrial_turtle) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.482510] (-) TimerEvent: {}
+[2.541849] (industrial_turtle) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.585328] (-) TimerEvent: {}
+[2.605049] (industrial_turtle) StderrLine: {'line': b'\x1b[33mCMake Warning:\n'}
+[2.605333] (industrial_turtle) StderrLine: {'line': b'  Manually-specified variables were not used by the project:\n'}
+[2.605433] (industrial_turtle) StderrLine: {'line': b'\n'}
+[2.605492] (industrial_turtle) StderrLine: {'line': b'    CATKIN_INSTALL_INTO_PREFIX_ROOT\n'}
+[2.605548] (industrial_turtle) StderrLine: {'line': b'    CATKIN_SYMLINK_INSTALL\n'}
+[2.605602] (industrial_turtle) StderrLine: {'line': b'\n'}
+[2.605655] (industrial_turtle) StderrLine: {'line': b'\x1b[0m\n'}
+[2.611017] (industrial_turtle) StdoutLine: {'line': b'-- Generating done\n'}
+[2.618859] (industrial_turtle) StdoutLine: {'line': b'-- Build files have been written to: /home/pruizayastuy/ros2_industrial_ws/build/industrial_turtle\n'}
+[2.630684] (industrial_turtle) CommandEnded: {'returncode': 0}
+[2.636823] (industrial_turtle) JobProgress: {'identifier': 'industrial_turtle', 'progress': 'build'}
+[2.637548] (industrial_turtle) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pruizayastuy/ros2_industrial_ws/build/industrial_turtle', '--', '-j2', '-l2'], 'cwd': '/home/pruizayastuy/ros2_industrial_ws/build/industrial_turtle', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GTK_CSD', '0'), ('USER', 'pruizayastuy'), ('LC_TIME', 'es_ES.UTF-8'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1907'), ('ROS_PACKAGE_PATH', '/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('XDG_CACHE_HOME', '/home/pruizayastuy/.cache'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', 'firefox'), ('HOME', '/home/pruizayastuy'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/pruizayastuy/ros2_industrial_ws'), ('TERM_PROGRAM_VERSION', '1.100.3'), ('DESKTOP_SESSION', 'Lubuntu'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'es_ES.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QT_QPA_PLATFORMTHEME', 'lxqt'), ('COLCON_PREFIX_PATH', '/home/pruizayastuy/ros2_industrial_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pruizayastuy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/lib/x86_64-linux-gnu/pkgconfig:/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('SAL_VCL_QT5_USE_CAIRO', 'true'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('SAL_USE_VCLPLUGIN', 'qt5'), ('PATH', '/opt/ros/humble/bin:/home/pruizayastuy/.local/bin:/home/pruizayastuy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'lxqt-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'es_ES.UTF-8'), ('XDG_CURRENT_DESKTOP', 'LXQt'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XDG_DATA_HOME', '/home/pruizayastuy/.local/share'), ('XDG_CONFIG_HOME', '/home/pruizayastuy/.config'), ('XDG_SESSION_DESKTOP', ''), ('XAUTHORITY', '/home/pruizayastuy/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-643cb370f4.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXA8wUWe/agent.1809'), ('AMENT_PREFIX_PATH', '/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'LXQt'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LXQT_SESSION_CONFIG', 'session'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('XDG_VTNR', '1'), ('PWD', '/home/pruizayastuy/ros2_industrial_ws/build/industrial_turtle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-Lubuntu:/etc/xdg:/etc:/usr/share'), ('XDG_DATA_DIRS', '/usr/share/Lubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/local/lib/python3.10/dist-packages:/home/pruizayastuy/ros2_industrial_ws/build/industrial_turtle:/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('QT_PLATFORM_PLUGIN', 'lxqt'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle')]), 'shell': False}
+[2.690535] (-) TimerEvent: {}
+[2.773667] (industrial_turtle) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.800071] (-) TimerEvent: {}
+[2.828130] (industrial_turtle) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.911877] (-) TimerEvent: {}
+[3.173722] (-) TimerEvent: {}
+[3.274961] (-) TimerEvent: {}
+[3.380495] (-) TimerEvent: {}
+[3.488423] (-) TimerEvent: {}
+[3.606932] (-) TimerEvent: {}
+[3.613615] (industrial_turtle) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/industrial_turtle__rosidl_generator_c.dir/rosidl_generator_c/industrial_turtle/msg/detail/robot_status__functions.c.o\x1b[0m\n'}
+[3.630094] (industrial_turtle) StdoutLine: {'line': b'[  7%] Built target industrial_turtle__cpp\n'}
+[3.713507] (-) TimerEvent: {}
+[3.752978] (industrial_turtle) StdoutLine: {'line': b'[  7%] Built target ament_cmake_python_copy_industrial_turtle\n'}
+[3.787390] (industrial_turtle) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.810542] (industrial_turtle) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/industrial_turtle__rosidl_generator_c.dir/rosidl_generator_c/industrial_turtle/srv/detail/start_mission__functions.c.o\x1b[0m\n'}
+[3.816712] (-) TimerEvent: {}
+[3.921764] (-) TimerEvent: {}
+[3.999581] (industrial_turtle) StdoutLine: {'line': b'[ 15%] \x1b[32m\x1b[1mLinking C shared library libindustrial_turtle__rosidl_generator_c.so\x1b[0m\n'}
+[4.027372] (-) TimerEvent: {}
+[4.137284] (-) TimerEvent: {}
+[4.197800] (industrial_turtle) StdoutLine: {'line': b'[ 15%] Built target industrial_turtle__rosidl_generator_c\n'}
+[4.237581] (-) TimerEvent: {}
+[4.257416] (industrial_turtle) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.339200] (-) TimerEvent: {}
+[4.440057] (-) TimerEvent: {}
+[4.541976] (industrial_turtle) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/industrial_turtle__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/industrial_turtle/msg/robot_status__type_support.cpp.o\x1b[0m\n'}
+[4.542216] (-) TimerEvent: {}
+[4.651665] (-) TimerEvent: {}
+[4.767476] (-) TimerEvent: {}
+[4.871194] (-) TimerEvent: {}
+[5.002496] (-) TimerEvent: {}
+[5.078072] (industrial_turtle) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/industrial_turtle__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/industrial_turtle/srv/start_mission__type_support.cpp.o\x1b[0m\n'}
+[5.118129] (-) TimerEvent: {}
+[5.119527] (industrial_turtle) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/industrial_turtle__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/industrial_turtle/msg/detail/dds_fastrtps/robot_status__type_support.cpp.o\x1b[0m\n'}
+[5.356537] (-) TimerEvent: {}
+[5.392639] (industrial_turtle) StdoutLine: {'line': b'[ 28%] \x1b[32m\x1b[1mLinking CXX shared library libindustrial_turtle__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[5.457810] (-) TimerEvent: {}
+[5.474591] (industrial_turtle) StdoutLine: {'line': b'[ 28%] Built target industrial_turtle__rosidl_typesupport_cpp\n'}
+[5.533635] (industrial_turtle) StdoutLine: {'line': b'[ 30%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[5.568887] (-) TimerEvent: {}
+[5.691827] (-) TimerEvent: {}
+[5.831943] (-) TimerEvent: {}
+[5.949242] (-) TimerEvent: {}
+[6.075421] (-) TimerEvent: {}
+[6.186944] (-) TimerEvent: {}
+[6.279118] (industrial_turtle) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding C object CMakeFiles/industrial_turtle__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/industrial_turtle/msg/detail/robot_status__type_support.c.o\x1b[0m\n'}
+[6.288991] (-) TimerEvent: {}
+[6.291549] (industrial_turtle) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/industrial_turtle__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/industrial_turtle/srv/detail/dds_fastrtps/start_mission__type_support.cpp.o\x1b[0m\n'}
+[6.355754] (industrial_turtle) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object CMakeFiles/industrial_turtle__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/industrial_turtle/srv/detail/start_mission__type_support.c.o\x1b[0m\n'}
+[6.417714] (-) TimerEvent: {}
+[6.748346] (-) TimerEvent: {}
+[6.758585] (industrial_turtle) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking C shared library libindustrial_turtle__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[6.826479] (industrial_turtle) StdoutLine: {'line': b'[ 43%] \x1b[32m\x1b[1mLinking CXX shared library libindustrial_turtle__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[6.848918] (-) TimerEvent: {}
+[6.900546] (industrial_turtle) StdoutLine: {'line': b'[ 43%] Built target industrial_turtle__rosidl_typesupport_introspection_c\n'}
+[6.950506] (-) TimerEvent: {}
+[6.951796] (industrial_turtle) StdoutLine: {'line': b'[ 46%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[7.052453] (industrial_turtle) StdoutLine: {'line': b'[ 46%] Built target industrial_turtle__rosidl_typesupport_fastrtps_cpp\n'}
+[7.052670] (-) TimerEvent: {}
+[7.100993] (industrial_turtle) StdoutLine: {'line': b'[ 48%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[7.153635] (-) TimerEvent: {}
+[7.260310] (-) TimerEvent: {}
+[7.366008] (-) TimerEvent: {}
+[7.476672] (-) TimerEvent: {}
+[7.568445] (industrial_turtle) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/industrial_turtle__rosidl_typesupport_c.dir/rosidl_typesupport_c/industrial_turtle/msg/robot_status__type_support.cpp.o\x1b[0m\n'}
+[7.624090] (-) TimerEvent: {}
+[7.720002] (industrial_turtle) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/industrial_turtle__rosidl_typesupport_c.dir/rosidl_typesupport_c/industrial_turtle/srv/start_mission__type_support.cpp.o\x1b[0m\n'}
+[7.724858] (-) TimerEvent: {}
+[7.824175] (industrial_turtle) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX shared library libindustrial_turtle__rosidl_typesupport_c.so\x1b[0m\n'}
+[7.826506] (-) TimerEvent: {}
+[7.885916] (industrial_turtle) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/industrial_turtle__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/industrial_turtle/msg/detail/robot_status__type_support.cpp.o\x1b[0m\n'}
+[7.927133] (-) TimerEvent: {}
+[7.967303] (industrial_turtle) StdoutLine: {'line': b'[ 58%] Built target industrial_turtle__rosidl_typesupport_c\n'}
+[8.008579] (industrial_turtle) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/industrial_turtle__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/industrial_turtle/srv/detail/start_mission__type_support.cpp.o\x1b[0m\n'}
+[8.062736] (-) TimerEvent: {}
+[8.164943] (-) TimerEvent: {}
+[8.270667] (-) TimerEvent: {}
+[8.386026] (-) TimerEvent: {}
+[8.617464] (-) TimerEvent: {}
+[8.720006] (-) TimerEvent: {}
+[8.825445] (-) TimerEvent: {}
+[8.868836] (industrial_turtle) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libindustrial_turtle__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[8.947562] (-) TimerEvent: {}
+[8.993918] (industrial_turtle) StdoutLine: {'line': b'[ 64%] Built target industrial_turtle__rosidl_typesupport_introspection_cpp\n'}
+[9.058452] (-) TimerEvent: {}
+[9.059321] (industrial_turtle) StdoutLine: {'line': b'[ 66%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[9.194331] (-) TimerEvent: {}
+[9.206351] (industrial_turtle) StdoutLine: {'line': b'running egg_info\n'}
+[9.206610] (industrial_turtle) StdoutLine: {'line': b'creating industrial_turtle.egg-info\n'}
+[9.206752] (industrial_turtle) StdoutLine: {'line': b'writing industrial_turtle.egg-info/PKG-INFO\n'}
+[9.206858] (industrial_turtle) StdoutLine: {'line': b'writing dependency_links to industrial_turtle.egg-info/dependency_links.txt\n'}
+[9.206952] (industrial_turtle) StdoutLine: {'line': b'writing top-level names to industrial_turtle.egg-info/top_level.txt\n'}
+[9.207043] (industrial_turtle) StdoutLine: {'line': b"writing manifest file 'industrial_turtle.egg-info/SOURCES.txt'\n"}
+[9.207114] (industrial_turtle) StdoutLine: {'line': b"reading manifest file 'industrial_turtle.egg-info/SOURCES.txt'\n"}
+[9.207202] (industrial_turtle) StdoutLine: {'line': b"writing manifest file 'industrial_turtle.egg-info/SOURCES.txt'\n"}
+[9.249935] (industrial_turtle) StdoutLine: {'line': b'[ 66%] Built target ament_cmake_python_build_industrial_turtle_egg\n'}
+[9.298315] (-) TimerEvent: {}
+[9.476810] (-) TimerEvent: {}
+[9.558890] (industrial_turtle) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/industrial_turtle__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/industrial_turtle/srv/detail/start_mission__type_support_c.cpp.o\x1b[0m\n'}
+[9.577010] (-) TimerEvent: {}
+[9.578132] (industrial_turtle) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/industrial_turtle__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/industrial_turtle/msg/detail/robot_status__type_support_c.cpp.o\x1b[0m\n'}
+[9.680552] (-) TimerEvent: {}
+[9.784685] (-) TimerEvent: {}
+[9.890478] (-) TimerEvent: {}
+[10.099974] (-) TimerEvent: {}
+[10.196572] (industrial_turtle) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libindustrial_turtle__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[10.200360] (-) TimerEvent: {}
+[10.304288] (-) TimerEvent: {}
+[10.375397] (industrial_turtle) StdoutLine: {'line': b'[ 74%] Built target industrial_turtle__rosidl_typesupport_fastrtps_c\n'}
+[10.404976] (-) TimerEvent: {}
+[10.434460] (industrial_turtle) StdoutLine: {'line': b'[ 74%] Built target industrial_turtle\n'}
+[10.478497] (industrial_turtle) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[10.506937] (-) TimerEvent: {}
+[10.832049] (-) TimerEvent: {}
+[11.072983] (-) TimerEvent: {}
+[11.175207] (-) TimerEvent: {}
+[11.230093] (industrial_turtle) StdoutLine: {'line': b'[ 76%] Built target industrial_turtle__py\n'}
+[11.276333] (-) TimerEvent: {}
+[11.305717] (industrial_turtle) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/industrial_turtle__rosidl_generator_py.dir/rosidl_generator_py/industrial_turtle/msg/_robot_status_s.c.o\x1b[0m\n'}
+[11.318179] (industrial_turtle) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/industrial_turtle__rosidl_generator_py.dir/rosidl_generator_py/industrial_turtle/srv/_start_mission_s.c.o\x1b[0m\n'}
+[11.429001] (-) TimerEvent: {}
+[11.479776] (industrial_turtle) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/industrial_turtle/libindustrial_turtle__rosidl_generator_py.so\x1b[0m\n'}
+[11.535113] (-) TimerEvent: {}
+[11.553030] (industrial_turtle) StdoutLine: {'line': b'[ 84%] Built target industrial_turtle__rosidl_generator_py\n'}
+[11.624850] (industrial_turtle) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/industrial_turtle__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/industrial_turtle/_industrial_turtle_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[11.625053] (industrial_turtle) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/industrial_turtle__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/industrial_turtle/_industrial_turtle_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[11.642189] (-) TimerEvent: {}
+[11.749483] (-) TimerEvent: {}
+[11.791853] (industrial_turtle) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/industrial_turtle/industrial_turtle_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[11.853603] (-) TimerEvent: {}
+[11.922761] (industrial_turtle) StdoutLine: {'line': b'[ 92%] Built target industrial_turtle__rosidl_typesupport_introspection_c__pyext\n'}
+[11.932225] (industrial_turtle) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/industrial_turtle/industrial_turtle_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[11.955766] (-) TimerEvent: {}
+[12.040660] (industrial_turtle) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/industrial_turtle__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/industrial_turtle/_industrial_turtle_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[12.059933] (-) TimerEvent: {}
+[12.165902] (-) TimerEvent: {}
+[12.230793] (industrial_turtle) StdoutLine: {'line': b'[ 97%] Built target industrial_turtle__rosidl_typesupport_fastrtps_c__pyext\n'}
+[12.247934] (industrial_turtle) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/industrial_turtle/industrial_turtle_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[12.274372] (-) TimerEvent: {}
+[12.349142] (industrial_turtle) StdoutLine: {'line': b'[100%] Built target industrial_turtle__rosidl_typesupport_c__pyext\n'}
+[12.377588] (-) TimerEvent: {}
+[12.395674] (industrial_turtle) CommandEnded: {'returncode': 0}
+[12.397066] (industrial_turtle) JobProgress: {'identifier': 'industrial_turtle', 'progress': 'install'}
+[12.404119] (industrial_turtle) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pruizayastuy/ros2_industrial_ws/build/industrial_turtle'], 'cwd': '/home/pruizayastuy/ros2_industrial_ws/build/industrial_turtle', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GTK_CSD', '0'), ('USER', 'pruizayastuy'), ('LC_TIME', 'es_ES.UTF-8'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1907'), ('ROS_PACKAGE_PATH', '/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('XDG_CACHE_HOME', '/home/pruizayastuy/.cache'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', 'firefox'), ('HOME', '/home/pruizayastuy'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/pruizayastuy/ros2_industrial_ws'), ('TERM_PROGRAM_VERSION', '1.100.3'), ('DESKTOP_SESSION', 'Lubuntu'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'es_ES.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QT_QPA_PLATFORMTHEME', 'lxqt'), ('COLCON_PREFIX_PATH', '/home/pruizayastuy/ros2_industrial_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pruizayastuy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/lib/x86_64-linux-gnu/pkgconfig:/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('SAL_VCL_QT5_USE_CAIRO', 'true'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('SAL_USE_VCLPLUGIN', 'qt5'), ('PATH', '/opt/ros/humble/bin:/home/pruizayastuy/.local/bin:/home/pruizayastuy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'lxqt-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'es_ES.UTF-8'), ('XDG_CURRENT_DESKTOP', 'LXQt'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XDG_DATA_HOME', '/home/pruizayastuy/.local/share'), ('XDG_CONFIG_HOME', '/home/pruizayastuy/.config'), ('XDG_SESSION_DESKTOP', ''), ('XAUTHORITY', '/home/pruizayastuy/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-643cb370f4.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXA8wUWe/agent.1809'), ('AMENT_PREFIX_PATH', '/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'LXQt'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LXQT_SESSION_CONFIG', 'session'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('XDG_VTNR', '1'), ('PWD', '/home/pruizayastuy/ros2_industrial_ws/build/industrial_turtle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-Lubuntu:/etc/xdg:/etc:/usr/share'), ('XDG_DATA_DIRS', '/usr/share/Lubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/local/lib/python3.10/dist-packages:/home/pruizayastuy/ros2_industrial_ws/build/industrial_turtle:/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('QT_PLATFORM_PLUGIN', 'lxqt'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle')]), 'shell': False}
+[12.415071] (industrial_turtle) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.415549] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/ament_index/resource_index/rosidl_interfaces/industrial_turtle\n'}
+[12.416088] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle\n'}
+[12.418568] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/srv\n'}
+[12.418713] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/srv/detail\n'}
+[12.419415] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/srv/detail/start_mission__functions.c\n'}
+[12.419597] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/srv/detail/start_mission__functions.h\n'}
+[12.419731] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/srv/detail/start_mission__struct.h\n'}
+[12.419862] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/srv/detail/start_mission__type_support.h\n'}
+[12.419990] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/srv/start_mission.h\n'}
+[12.422162] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/msg\n'}
+[12.422243] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/msg/detail\n'}
+[12.422300] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/msg/detail/robot_status__functions.h\n'}
+[12.422352] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/msg/detail/robot_status__type_support.h\n'}
+[12.422399] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/msg/detail/robot_status__struct.h\n'}
+[12.422443] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/msg/detail/robot_status__functions.c\n'}
+[12.424715] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/msg/robot_status.h\n'}
+[12.424997] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/msg/rosidl_generator_c__visibility_control.h\n'}
+[12.425138] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/environment/library_path.sh\n'}
+[12.427001] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/environment/library_path.dsv\n'}
+[12.428745] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/lib/libindustrial_turtle__rosidl_generator_c.so\n'}
+[12.428828] (industrial_turtle) StdoutLine: {'line': b'-- Set runtime path of "/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/lib/libindustrial_turtle__rosidl_generator_c.so" to ""\n'}
+[12.429899] (industrial_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle\n'}
+[12.430037] (industrial_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/srv\n'}
+[12.430338] (industrial_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/srv/detail\n'}
+[12.431520] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/srv/detail/start_mission__rosidl_typesupport_fastrtps_c.h\n'}
+[12.431694] (industrial_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/msg\n'}
+[12.431839] (industrial_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/msg/detail\n'}
+[12.431986] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/msg/detail/robot_status__rosidl_typesupport_fastrtps_c.h\n'}
+[12.433649] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[12.433829] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/lib/libindustrial_turtle__rosidl_typesupport_fastrtps_c.so\n'}
+[12.434049] (industrial_turtle) StdoutLine: {'line': b'-- Set runtime path of "/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/lib/libindustrial_turtle__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[12.434120] (industrial_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle\n'}
+[12.434177] (industrial_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/srv\n'}
+[12.434234] (industrial_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/srv/detail\n'}
+[12.434291] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/srv/detail/start_mission__builder.hpp\n'}
+[12.434347] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/srv/detail/start_mission__struct.hpp\n'}
+[12.434403] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/srv/detail/start_mission__type_support.hpp\n'}
+[12.434458] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/srv/detail/start_mission__traits.hpp\n'}
+[12.434510] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/srv/start_mission.hpp\n'}
+[12.434567] (industrial_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/msg\n'}
+[12.434618] (industrial_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/msg/detail\n'}
+[12.434671] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/msg/detail/robot_status__type_support.hpp\n'}
+[12.434721] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/msg/detail/robot_status__struct.hpp\n'}
+[12.434772] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/msg/detail/robot_status__builder.hpp\n'}
+[12.434818] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/msg/detail/robot_status__traits.hpp\n'}
+[12.434871] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[12.434918] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/msg/robot_status.hpp\n'}
+[12.434967] (industrial_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle\n'}
+[12.435015] (industrial_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/srv\n'}
+[12.435057] (industrial_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/srv/detail\n'}
+[12.435099] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/srv/detail/dds_fastrtps\n'}
+[12.448885] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/srv/detail/start_mission__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.449906] (industrial_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/msg\n'}
+[12.450020] (industrial_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/msg/detail\n'}
+[12.450141] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/msg/detail/dds_fastrtps\n'}
+[12.450203] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/msg/detail/robot_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.450275] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[12.450336] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/lib/libindustrial_turtle__rosidl_typesupport_fastrtps_cpp.so\n'}
+[12.450395] (industrial_turtle) StdoutLine: {'line': b'-- Set runtime path of "/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/lib/libindustrial_turtle__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[12.450445] (industrial_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle\n'}
+[12.450494] (industrial_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/srv\n'}
+[12.450541] (industrial_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/srv/detail\n'}
+[12.450589] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/srv/detail/start_mission__type_support.c\n'}
+[12.450639] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/srv/detail/start_mission__rosidl_typesupport_introspection_c.h\n'}
+[12.450690] (industrial_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/msg\n'}
+[12.450738] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[12.450786] (industrial_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/msg/detail\n'}
+[12.450832] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/msg/detail/robot_status__rosidl_typesupport_introspection_c.h\n'}
+[12.450879] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/msg/detail/robot_status__type_support.c\n'}
+[12.450926] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/lib/libindustrial_turtle__rosidl_typesupport_introspection_c.so\n'}
+[12.450973] (industrial_turtle) StdoutLine: {'line': b'-- Set runtime path of "/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/lib/libindustrial_turtle__rosidl_typesupport_introspection_c.so" to ""\n'}
+[12.451037] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/lib/libindustrial_turtle__rosidl_typesupport_c.so\n'}
+[12.451095] (industrial_turtle) StdoutLine: {'line': b'-- Set runtime path of "/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/lib/libindustrial_turtle__rosidl_typesupport_c.so" to ""\n'}
+[12.451144] (industrial_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle\n'}
+[12.451191] (industrial_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/srv\n'}
+[12.451243] (industrial_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/srv/detail\n'}
+[12.451292] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/srv/detail/start_mission__type_support.cpp\n'}
+[12.451338] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/srv/detail/start_mission__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.451387] (industrial_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/msg\n'}
+[12.451437] (industrial_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/msg/detail\n'}
+[12.451481] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/msg/detail/robot_status__type_support.cpp\n'}
+[12.452157] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/msg/detail/robot_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.452244] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/lib/libindustrial_turtle__rosidl_typesupport_introspection_cpp.so\n'}
+[12.452303] (industrial_turtle) StdoutLine: {'line': b'-- Set runtime path of "/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/lib/libindustrial_turtle__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[12.452357] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/lib/libindustrial_turtle__rosidl_typesupport_cpp.so\n'}
+[12.452409] (industrial_turtle) StdoutLine: {'line': b'-- Set runtime path of "/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/lib/libindustrial_turtle__rosidl_typesupport_cpp.so" to ""\n'}
+[12.452463] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/environment/pythonpath.sh\n'}
+[12.452514] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/environment/pythonpath.dsv\n'}
+[12.452565] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/local/lib/python3.10/dist-packages/industrial_turtle-1.0.0-py3.10.egg-info\n'}
+[12.452617] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/local/lib/python3.10/dist-packages/industrial_turtle-1.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[12.452668] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/local/lib/python3.10/dist-packages/industrial_turtle-1.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[12.452714] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/local/lib/python3.10/dist-packages/industrial_turtle-1.0.0-py3.10.egg-info/top_level.txt\n'}
+[12.452985] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/local/lib/python3.10/dist-packages/industrial_turtle-1.0.0-py3.10.egg-info/PKG-INFO\n'}
+[12.453077] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/local/lib/python3.10/dist-packages/industrial_turtle\n'}
+[12.453131] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/local/lib/python3.10/dist-packages/industrial_turtle/industrial_turtle_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.453365] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/local/lib/python3.10/dist-packages/industrial_turtle/__init__.py\n'}
+[12.453425] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/local/lib/python3.10/dist-packages/industrial_turtle/_industrial_turtle_s.ep.rosidl_typesupport_c.c\n'}
+[12.453490] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/local/lib/python3.10/dist-packages/industrial_turtle/libindustrial_turtle__rosidl_generator_py.so\n'}
+[12.453545] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/local/lib/python3.10/dist-packages/industrial_turtle/srv\n'}
+[12.453600] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/local/lib/python3.10/dist-packages/industrial_turtle/srv/__init__.py\n'}
+[12.453655] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/local/lib/python3.10/dist-packages/industrial_turtle/srv/_start_mission_s.c\n'}
+[12.453712] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/local/lib/python3.10/dist-packages/industrial_turtle/srv/_start_mission.py\n'}
+[12.453769] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/local/lib/python3.10/dist-packages/industrial_turtle/_industrial_turtle_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[12.453822] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/local/lib/python3.10/dist-packages/industrial_turtle/industrial_turtle_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.453875] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/local/lib/python3.10/dist-packages/industrial_turtle/msg\n'}
+[12.453923] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/local/lib/python3.10/dist-packages/industrial_turtle/msg/__init__.py\n'}
+[12.453975] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/local/lib/python3.10/dist-packages/industrial_turtle/msg/_robot_status_s.c\n'}
+[12.454025] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/local/lib/python3.10/dist-packages/industrial_turtle/msg/_robot_status.py\n'}
+[12.454069] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/local/lib/python3.10/dist-packages/industrial_turtle/industrial_turtle_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.454114] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/local/lib/python3.10/dist-packages/industrial_turtle/_industrial_turtle_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[12.480714] (-) TimerEvent: {}
+[12.529226] (industrial_turtle) StdoutLine: {'line': b"Listing '/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/local/lib/python3.10/dist-packages/industrial_turtle'...\n"}
+[12.529419] (industrial_turtle) StdoutLine: {'line': b"Compiling '/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/local/lib/python3.10/dist-packages/industrial_turtle/__init__.py'...\n"}
+[12.529478] (industrial_turtle) StdoutLine: {'line': b"Listing '/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/local/lib/python3.10/dist-packages/industrial_turtle/msg'...\n"}
+[12.529548] (industrial_turtle) StdoutLine: {'line': b"Compiling '/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/local/lib/python3.10/dist-packages/industrial_turtle/msg/__init__.py'...\n"}
+[12.529598] (industrial_turtle) StdoutLine: {'line': b"Compiling '/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/local/lib/python3.10/dist-packages/industrial_turtle/msg/_robot_status.py'...\n"}
+[12.529646] (industrial_turtle) StdoutLine: {'line': b"Listing '/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/local/lib/python3.10/dist-packages/industrial_turtle/srv'...\n"}
+[12.529706] (industrial_turtle) StdoutLine: {'line': b"Compiling '/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/local/lib/python3.10/dist-packages/industrial_turtle/srv/__init__.py'...\n"}
+[12.529758] (industrial_turtle) StdoutLine: {'line': b"Compiling '/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/local/lib/python3.10/dist-packages/industrial_turtle/srv/_start_mission.py'...\n"}
+[12.533627] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/local/lib/python3.10/dist-packages/industrial_turtle/industrial_turtle_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.533808] (industrial_turtle) StdoutLine: {'line': b'-- Set runtime path of "/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/local/lib/python3.10/dist-packages/industrial_turtle/industrial_turtle_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[12.534611] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/local/lib/python3.10/dist-packages/industrial_turtle/industrial_turtle_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.534733] (industrial_turtle) StdoutLine: {'line': b'-- Set runtime path of "/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/local/lib/python3.10/dist-packages/industrial_turtle/industrial_turtle_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[12.535074] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/local/lib/python3.10/dist-packages/industrial_turtle/industrial_turtle_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.535859] (industrial_turtle) StdoutLine: {'line': b'-- Set runtime path of "/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/local/lib/python3.10/dist-packages/industrial_turtle/industrial_turtle_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[12.535978] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/lib/libindustrial_turtle__rosidl_generator_py.so\n'}
+[12.537507] (industrial_turtle) StdoutLine: {'line': b'-- Set runtime path of "/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/lib/libindustrial_turtle__rosidl_generator_py.so" to ""\n'}
+[12.537616] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/msg/RobotStatus.idl\n'}
+[12.538396] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/srv/StartMission.idl\n'}
+[12.538582] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/msg/RobotStatus.msg\n'}
+[12.538663] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/srv/StartMission.srv\n'}
+[12.539661] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/srv/StartMission_Request.msg\n'}
+[12.539810] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/srv/StartMission_Response.msg\n'}
+[12.543207] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/lib/industrial_turtle/robot_controller.py\n'}
+[12.550499] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/lib/industrial_turtle/status_monitor.py\n'}
+[12.550706] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/lib/industrial_turtle/mission_service.py\n'}
+[12.550768] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/lib/industrial_turtle/emergency_service.py\n'}
+[12.550825] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/lib/python3.10/site-packages/industrial_turtle\n'}
+[12.550877] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/lib/python3.10/site-packages/industrial_turtle/__pycache__\n'}
+[12.550932] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/lib/python3.10/site-packages/industrial_turtle/mission_service.py\n'}
+[12.550980] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/lib/python3.10/site-packages/industrial_turtle/__init__.py\n'}
+[12.551028] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/lib/python3.10/site-packages/industrial_turtle/robot_controller.py\n'}
+[12.551080] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/lib/python3.10/site-packages/industrial_turtle/status_monitor.py\n'}
+[12.551140] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/lib/python3.10/site-packages/industrial_turtle/emergency_service.py\n'}
+[12.551190] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/ament_index/resource_index/package_run_dependencies/industrial_turtle\n'}
+[12.551239] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/ament_index/resource_index/parent_prefix_path/industrial_turtle\n'}
+[12.551287] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/environment/ament_prefix_path.sh\n'}
+[12.559208] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/environment/ament_prefix_path.dsv\n'}
+[12.559367] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/environment/path.sh\n'}
+[12.559421] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/environment/path.dsv\n'}
+[12.559516] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/local_setup.bash\n'}
+[12.559574] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/local_setup.sh\n'}
+[12.559624] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/local_setup.zsh\n'}
+[12.559674] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/local_setup.dsv\n'}
+[12.559722] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/package.dsv\n'}
+[12.559768] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/ament_index/resource_index/packages/industrial_turtle\n'}
+[12.559812] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/cmake/export_industrial_turtle__rosidl_generator_cExport.cmake\n'}
+[12.563017] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/cmake/export_industrial_turtle__rosidl_generator_cExport-noconfig.cmake\n'}
+[12.563155] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/cmake/export_industrial_turtle__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[12.563210] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/cmake/export_industrial_turtle__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[12.563263] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/cmake/export_industrial_turtle__rosidl_generator_cppExport.cmake\n'}
+[12.563312] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/cmake/export_industrial_turtle__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[12.563401] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/cmake/export_industrial_turtle__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[12.563450] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/cmake/industrial_turtle__rosidl_typesupport_introspection_cExport.cmake\n'}
+[12.563519] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/cmake/industrial_turtle__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[12.563580] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/cmake/industrial_turtle__rosidl_typesupport_cExport.cmake\n'}
+[12.563626] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/cmake/industrial_turtle__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[12.563669] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/cmake/industrial_turtle__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[12.563714] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/cmake/industrial_turtle__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[12.563758] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/cmake/industrial_turtle__rosidl_typesupport_cppExport.cmake\n'}
+[12.563799] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/cmake/industrial_turtle__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[12.563841] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/cmake/export_industrial_turtle__rosidl_generator_pyExport.cmake\n'}
+[12.563883] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/cmake/export_industrial_turtle__rosidl_generator_pyExport-noconfig.cmake\n'}
+[12.563924] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/cmake/rosidl_cmake-extras.cmake\n'}
+[12.563976] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[12.564021] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[12.564066] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[12.564112] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[12.564157] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[12.564202] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[12.565744] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/cmake/industrial_turtleConfig.cmake\n'}
+[12.565938] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/cmake/industrial_turtleConfig-version.cmake\n'}
+[12.566076] (industrial_turtle) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/package.xml\n'}
+[12.567021] (industrial_turtle) CommandEnded: {'returncode': 0}
+[12.599438] (-) TimerEvent: {}
+[12.616613] (industrial_turtle) JobEnded: {'identifier': 'industrial_turtle', 'rc': 0}
+[12.619453] (-) EventReactorShutdown: {}

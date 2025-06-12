@@ -1,0 +1,153 @@
+[0.122s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.122s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7823b6c4c6a0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7823b6d459f0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7823b6d459f0>>)
+[0.284s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.284s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.284s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.284s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.285s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.285s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.285s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/pruizayastuy/ros2_industrial_ws'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/industrial_turtle) by extensions ['ignore', 'ignore_ament_install']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/industrial_turtle) by extension 'ignore'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/industrial_turtle) by extension 'ignore_ament_install'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/industrial_turtle) by extensions ['colcon_pkg']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/industrial_turtle) by extension 'colcon_pkg'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/industrial_turtle) by extensions ['colcon_meta']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/industrial_turtle) by extension 'colcon_meta'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/industrial_turtle) by extensions ['ros']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/industrial_turtle) by extension 'ros'
+[0.303s] DEBUG:colcon.colcon_core.package_identification:Package 'src/industrial_turtle' with type 'ros.catkin' and name 'industrial_turtle'
+[0.303s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.303s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.303s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.303s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.303s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.324s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.324s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.325s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.326s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.328s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/pruizayastuy/ros2_industrial_ws/install
+[0.330s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 295 installed packages in /opt/ros/humble
+[0.334s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'industrial_turtle' build argument 'cmake_args' from command line to 'None'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'industrial_turtle' build argument 'cmake_target' from command line to 'None'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'industrial_turtle' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'industrial_turtle' build argument 'cmake_clean_cache' from command line to 'False'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'industrial_turtle' build argument 'cmake_clean_first' from command line to 'False'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'industrial_turtle' build argument 'cmake_force_configure' from command line to 'False'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'industrial_turtle' build argument 'ament_cmake_args' from command line to 'None'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'industrial_turtle' build argument 'catkin_cmake_args' from command line to 'None'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'industrial_turtle' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.384s] DEBUG:colcon.colcon_core.verb:Building package 'industrial_turtle' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pruizayastuy/ros2_industrial_ws/build/industrial_turtle', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle', 'merge_install': False, 'path': '/home/pruizayastuy/ros2_industrial_ws/src/industrial_turtle', 'symlink_install': True, 'test_result_base': None}
+[0.384s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.389s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.389s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/pruizayastuy/ros2_industrial_ws/src/industrial_turtle' with build type 'catkin'
+[0.389s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pruizayastuy/ros2_industrial_ws/src/industrial_turtle'
+[0.398s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.398s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.398s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.421s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pruizayastuy/ros2_industrial_ws/build/industrial_turtle': /usr/bin/cmake /home/pruizayastuy/ros2_industrial_ws/src/industrial_turtle -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle
+[3.019s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pruizayastuy/ros2_industrial_ws/build/industrial_turtle' returned '0': /usr/bin/cmake /home/pruizayastuy/ros2_industrial_ws/src/industrial_turtle -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle
+[3.026s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pruizayastuy/ros2_industrial_ws/build/industrial_turtle': /usr/bin/cmake --build /home/pruizayastuy/ros2_industrial_ws/build/industrial_turtle -- -j2 -l2
+[12.784s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pruizayastuy/ros2_industrial_ws/build/industrial_turtle' returned '0': /usr/bin/cmake --build /home/pruizayastuy/ros2_industrial_ws/build/industrial_turtle -- -j2 -l2
+[12.792s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pruizayastuy/ros2_industrial_ws/build/industrial_turtle': /usr/bin/cmake --install /home/pruizayastuy/ros2_industrial_ws/build/industrial_turtle
+[12.955s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pruizayastuy/ros2_industrial_ws/build/industrial_turtle' returned '0': /usr/bin/cmake --install /home/pruizayastuy/ros2_industrial_ws/build/industrial_turtle
+[12.956s] Level 1:colcon.colcon_core.shell:create_environment_hook('industrial_turtle', 'ros_package_path')
+[12.956s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/hook/ros_package_path.ps1'
+[12.959s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/hook/ros_package_path.dsv'
+[12.959s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/hook/ros_package_path.sh'
+[12.960s] Level 1:colcon.colcon_ros.task.catkin:checking '/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/local/lib/python3.10/dist-packages'
+[12.960s] Level 1:colcon.colcon_core.shell:create_environment_hook('industrial_turtle', 'catkin_pythonpath')
+[12.960s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/hook/catkin_pythonpath.ps1'
+[12.961s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/hook/catkin_pythonpath.dsv'
+[12.961s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/hook/catkin_pythonpath.sh'
+[12.961s] Level 1:colcon.colcon_core.shell:create_environment_hook('industrial_turtle', 'pkg_config_path')
+[12.961s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/hook/pkg_config_path.ps1'
+[12.962s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/hook/pkg_config_path.dsv'
+[12.962s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/hook/pkg_config_path.sh'
+[12.968s] Level 1:colcon.colcon_core.shell:create_environment_hook('industrial_turtle', 'pkg_config_path_multiarch')
+[12.968s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/hook/pkg_config_path_multiarch.ps1'
+[12.969s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/hook/pkg_config_path_multiarch.dsv'
+[12.969s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/hook/pkg_config_path_multiarch.sh'
+[12.970s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(industrial_turtle)
+[12.972s] Level 1:colcon.colcon_core.environment:checking '/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle' for CMake module files
+[12.974s] Level 1:colcon.colcon_core.environment:checking '/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle' for CMake config files
+[12.974s] Level 1:colcon.colcon_core.shell:create_environment_hook('industrial_turtle', 'cmake_prefix_path')
+[12.974s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/hook/cmake_prefix_path.ps1'
+[12.975s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/hook/cmake_prefix_path.dsv'
+[12.975s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/hook/cmake_prefix_path.sh'
+[12.976s] Level 1:colcon.colcon_core.environment:checking '/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/lib'
+[12.976s] Level 1:colcon.colcon_core.shell:create_environment_hook('industrial_turtle', 'ld_library_path_lib')
+[12.976s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/hook/ld_library_path_lib.ps1'
+[12.976s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/hook/ld_library_path_lib.dsv'
+[12.977s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/hook/ld_library_path_lib.sh'
+[12.977s] Level 1:colcon.colcon_core.environment:checking '/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/bin'
+[12.977s] Level 1:colcon.colcon_core.environment:checking '/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/lib/pkgconfig/industrial_turtle.pc'
+[12.977s] Level 1:colcon.colcon_core.environment:checking '/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/lib/python3.10/site-packages'
+[12.977s] Level 1:colcon.colcon_core.shell:create_environment_hook('industrial_turtle', 'pythonpath')
+[12.978s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/hook/pythonpath.ps1'
+[12.988s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/hook/pythonpath.dsv'
+[12.990s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/hook/pythonpath.sh'
+[12.990s] Level 1:colcon.colcon_core.environment:checking '/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/bin'
+[12.991s] INFO:colcon.colcon_core.shell:Creating package script '/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/package.ps1'
+[12.992s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/package.dsv'
+[13.001s] INFO:colcon.colcon_core.shell:Creating package script '/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/package.sh'
+[13.002s] INFO:colcon.colcon_core.shell:Creating package script '/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/package.bash'
+[13.003s] INFO:colcon.colcon_core.shell:Creating package script '/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/package.zsh'
+[13.003s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/colcon-core/packages/industrial_turtle)
+[13.004s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[13.005s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[13.005s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[13.005s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[13.024s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[13.024s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[13.025s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[13.025s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[13.040s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[13.041s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pruizayastuy/ros2_industrial_ws/install/local_setup.ps1'
+[13.044s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pruizayastuy/ros2_industrial_ws/install/_local_setup_util_ps1.py'
+[13.050s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pruizayastuy/ros2_industrial_ws/install/setup.ps1'
+[13.055s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pruizayastuy/ros2_industrial_ws/install/local_setup.sh'
+[13.057s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pruizayastuy/ros2_industrial_ws/install/_local_setup_util_sh.py'
+[13.060s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pruizayastuy/ros2_industrial_ws/install/setup.sh'
+[13.061s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pruizayastuy/ros2_industrial_ws/install/local_setup.bash'
+[13.062s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pruizayastuy/ros2_industrial_ws/install/setup.bash'
+[13.063s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pruizayastuy/ros2_industrial_ws/install/local_setup.zsh'
+[13.064s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pruizayastuy/ros2_industrial_ws/install/setup.zsh'

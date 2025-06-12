@@ -1,0 +1,6 @@
+Invoking command in '/home/pruizayastuy/ros2_industrial_ws/build/industrial_turtle': /usr/bin/cmake /home/pruizayastuy/ros2_industrial_ws/src/industrial_turtle -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle
+Invoked command in '/home/pruizayastuy/ros2_industrial_ws/build/industrial_turtle' returned '0': /usr/bin/cmake /home/pruizayastuy/ros2_industrial_ws/src/industrial_turtle -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle
+Invoking command in '/home/pruizayastuy/ros2_industrial_ws/build/industrial_turtle': /usr/bin/cmake --build /home/pruizayastuy/ros2_industrial_ws/build/industrial_turtle -- -j2 -l2
+Invoked command in '/home/pruizayastuy/ros2_industrial_ws/build/industrial_turtle' returned '0': /usr/bin/cmake --build /home/pruizayastuy/ros2_industrial_ws/build/industrial_turtle -- -j2 -l2
+Invoking command in '/home/pruizayastuy/ros2_industrial_ws/build/industrial_turtle': /usr/bin/cmake --install /home/pruizayastuy/ros2_industrial_ws/build/industrial_turtle
+Invoked command in '/home/pruizayastuy/ros2_industrial_ws/build/industrial_turtle' returned '0': /usr/bin/cmake --install /home/pruizayastuy/ros2_industrial_ws/build/industrial_turtle

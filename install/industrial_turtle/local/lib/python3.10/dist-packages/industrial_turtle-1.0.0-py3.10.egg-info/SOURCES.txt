@@ -1,0 +1,6 @@
+setup.py
+industrial_turtle/__init__.py
+industrial_turtle.egg-info/PKG-INFO
+industrial_turtle.egg-info/SOURCES.txt
+industrial_turtle.egg-info/dependency_links.txt
+industrial_turtle.egg-info/top_level.txt

@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from industrial_turtle/msg/RobotStatus.msg
+// generated code does not contain a copyright notice
+
+
+module industrial_turtle {
+  module msg {
+    struct RobotStatus {
+      string robot_id;
+
+      double position_x;
+
+      double position_y;
+
+      double battery_level;
+
+      string current_task;
+
+      boolean is_moving;
+
+      double speed;
+
+      string status;
+
+      int32 completed_tasks;
+    };
+  };
+};

@@ -1,0 +1,296 @@
+[0.026s] Invoking command in '/home/pruizayastuy/ros2_industrial_ws/build/industrial_turtle': /usr/bin/cmake /home/pruizayastuy/ros2_industrial_ws/src/industrial_turtle -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle
+[0.148s] -- The C compiler identification is GNU 11.4.0
+[0.264s] -- The CXX compiler identification is GNU 11.4.0
+[0.283s] -- Detecting C compiler ABI info
+[0.397s] -- Detecting C compiler ABI info - done
+[0.406s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.407s] -- Detecting C compile features
+[0.408s] -- Detecting C compile features - done
+[0.412s] -- Detecting CXX compiler ABI info
+[0.574s] -- Detecting CXX compiler ABI info - done
+[0.587s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.589s] -- Detecting CXX compile features
+[0.590s] -- Detecting CXX compile features - done
+[0.594s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.799s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.939s] -- Found rclpy: 3.3.16 (/opt/ros/humble/share/rclpy/cmake)
+[0.939s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.997s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.997s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.006s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.021s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.049s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.097s] -- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)
+[1.143s] -- Found std_srvs: 4.8.0 (/opt/ros/humble/share/std_srvs/cmake)
+[1.153s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.504s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.097s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.323s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.351s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.351s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.404s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.404s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.404s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.404s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.430s] -- Found PythonExtra: .so  
+[2.535s] -- Configuring done
+[2.598s] [33mCMake Warning:
+[2.598s]   Manually-specified variables were not used by the project:
+[2.598s] 
+[2.598s]     CATKIN_INSTALL_INTO_PREFIX_ROOT
+[2.598s]     CATKIN_SYMLINK_INSTALL
+[2.598s] 
+[2.598s] [0m
+[2.604s] -- Generating done
+[2.612s] -- Build files have been written to: /home/pruizayastuy/ros2_industrial_ws/build/industrial_turtle
+[2.624s] Invoked command in '/home/pruizayastuy/ros2_industrial_ws/build/industrial_turtle' returned '0': /usr/bin/cmake /home/pruizayastuy/ros2_industrial_ws/src/industrial_turtle -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle
+[2.630s] Invoking command in '/home/pruizayastuy/ros2_industrial_ws/build/industrial_turtle': /usr/bin/cmake --build /home/pruizayastuy/ros2_industrial_ws/build/industrial_turtle -- -j2 -l2
+[2.766s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.821s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.606s] [  7%] [32mBuilding C object CMakeFiles/industrial_turtle__rosidl_generator_c.dir/rosidl_generator_c/industrial_turtle/msg/detail/robot_status__functions.c.o[0m
+[3.623s] [  7%] Built target industrial_turtle__cpp
+[3.746s] [  7%] Built target ament_cmake_python_copy_industrial_turtle
+[3.780s] [ 10%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.809s] [ 12%] [32mBuilding C object CMakeFiles/industrial_turtle__rosidl_generator_c.dir/rosidl_generator_c/industrial_turtle/srv/detail/start_mission__functions.c.o[0m
+[3.992s] [ 15%] [32m[1mLinking C shared library libindustrial_turtle__rosidl_generator_c.so[0m
+[4.191s] [ 15%] Built target industrial_turtle__rosidl_generator_c
+[4.250s] [ 17%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.535s] [ 20%] [32mBuilding CXX object CMakeFiles/industrial_turtle__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/industrial_turtle/msg/robot_status__type_support.cpp.o[0m
+[5.071s] [ 23%] [32mBuilding CXX object CMakeFiles/industrial_turtle__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/industrial_turtle/srv/start_mission__type_support.cpp.o[0m
+[5.112s] [ 25%] [32mBuilding CXX object CMakeFiles/industrial_turtle__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/industrial_turtle/msg/detail/dds_fastrtps/robot_status__type_support.cpp.o[0m
+[5.385s] [ 28%] [32m[1mLinking CXX shared library libindustrial_turtle__rosidl_typesupport_cpp.so[0m
+[5.467s] [ 28%] Built target industrial_turtle__rosidl_typesupport_cpp
+[5.526s] [ 30%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[6.272s] [ 33%] [32mBuilding C object CMakeFiles/industrial_turtle__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/industrial_turtle/msg/detail/robot_status__type_support.c.o[0m
+[6.284s] [ 35%] [32mBuilding CXX object CMakeFiles/industrial_turtle__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/industrial_turtle/srv/detail/dds_fastrtps/start_mission__type_support.cpp.o[0m
+[6.348s] [ 38%] [32mBuilding C object CMakeFiles/industrial_turtle__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/industrial_turtle/srv/detail/start_mission__type_support.c.o[0m
+[6.751s] [ 41%] [32m[1mLinking C shared library libindustrial_turtle__rosidl_typesupport_introspection_c.so[0m
+[6.819s] [ 43%] [32m[1mLinking CXX shared library libindustrial_turtle__rosidl_typesupport_fastrtps_cpp.so[0m
+[6.893s] [ 43%] Built target industrial_turtle__rosidl_typesupport_introspection_c
+[6.945s] [ 46%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[7.045s] [ 46%] Built target industrial_turtle__rosidl_typesupport_fastrtps_cpp
+[7.094s] [ 48%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[7.561s] [ 51%] [32mBuilding CXX object CMakeFiles/industrial_turtle__rosidl_typesupport_c.dir/rosidl_typesupport_c/industrial_turtle/msg/robot_status__type_support.cpp.o[0m
+[7.713s] [ 53%] [32mBuilding CXX object CMakeFiles/industrial_turtle__rosidl_typesupport_c.dir/rosidl_typesupport_c/industrial_turtle/srv/start_mission__type_support.cpp.o[0m
+[7.817s] [ 56%] [32m[1mLinking CXX shared library libindustrial_turtle__rosidl_typesupport_c.so[0m
+[7.879s] [ 58%] [32mBuilding CXX object CMakeFiles/industrial_turtle__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/industrial_turtle/msg/detail/robot_status__type_support.cpp.o[0m
+[7.960s] [ 58%] Built target industrial_turtle__rosidl_typesupport_c
+[8.001s] [ 61%] [32mBuilding CXX object CMakeFiles/industrial_turtle__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/industrial_turtle/srv/detail/start_mission__type_support.cpp.o[0m
+[8.863s] [ 64%] [32m[1mLinking CXX shared library libindustrial_turtle__rosidl_typesupport_introspection_cpp.so[0m
+[8.987s] [ 64%] Built target industrial_turtle__rosidl_typesupport_introspection_cpp
+[9.052s] [ 66%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[9.199s] running egg_info
+[9.199s] creating industrial_turtle.egg-info
+[9.199s] writing industrial_turtle.egg-info/PKG-INFO
+[9.199s] writing dependency_links to industrial_turtle.egg-info/dependency_links.txt
+[9.200s] writing top-level names to industrial_turtle.egg-info/top_level.txt
+[9.200s] writing manifest file 'industrial_turtle.egg-info/SOURCES.txt'
+[9.200s] reading manifest file 'industrial_turtle.egg-info/SOURCES.txt'
+[9.200s] writing manifest file 'industrial_turtle.egg-info/SOURCES.txt'
+[9.243s] [ 66%] Built target ament_cmake_python_build_industrial_turtle_egg
+[9.552s] [ 69%] [32mBuilding CXX object CMakeFiles/industrial_turtle__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/industrial_turtle/srv/detail/start_mission__type_support_c.cpp.o[0m
+[9.571s] [ 71%] [32mBuilding CXX object CMakeFiles/industrial_turtle__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/industrial_turtle/msg/detail/robot_status__type_support_c.cpp.o[0m
+[10.189s] [ 74%] [32m[1mLinking CXX shared library libindustrial_turtle__rosidl_typesupport_fastrtps_c.so[0m
+[10.368s] [ 74%] Built target industrial_turtle__rosidl_typesupport_fastrtps_c
+[10.427s] [ 74%] Built target industrial_turtle
+[10.471s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[11.223s] [ 76%] Built target industrial_turtle__py
+[11.298s] [ 79%] [32mBuilding C object CMakeFiles/industrial_turtle__rosidl_generator_py.dir/rosidl_generator_py/industrial_turtle/msg/_robot_status_s.c.o[0m
+[11.311s] [ 82%] [32mBuilding C object CMakeFiles/industrial_turtle__rosidl_generator_py.dir/rosidl_generator_py/industrial_turtle/srv/_start_mission_s.c.o[0m
+[11.473s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/industrial_turtle/libindustrial_turtle__rosidl_generator_py.so[0m
+[11.546s] [ 84%] Built target industrial_turtle__rosidl_generator_py
+[11.618s] [ 89%] [32mBuilding C object CMakeFiles/industrial_turtle__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/industrial_turtle/_industrial_turtle_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[11.618s] [ 89%] [32mBuilding C object CMakeFiles/industrial_turtle__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/industrial_turtle/_industrial_turtle_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[11.785s] [ 92%] [32m[1mLinking C shared library rosidl_generator_py/industrial_turtle/industrial_turtle_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[11.915s] [ 92%] Built target industrial_turtle__rosidl_typesupport_introspection_c__pyext
+[11.925s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/industrial_turtle/industrial_turtle_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[12.033s] [ 97%] [32mBuilding C object CMakeFiles/industrial_turtle__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/industrial_turtle/_industrial_turtle_s.ep.rosidl_typesupport_c.c.o[0m
+[12.224s] [ 97%] Built target industrial_turtle__rosidl_typesupport_fastrtps_c__pyext
+[12.241s] [100%] [32m[1mLinking C shared library rosidl_generator_py/industrial_turtle/industrial_turtle_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[12.342s] [100%] Built target industrial_turtle__rosidl_typesupport_c__pyext
+[12.389s] Invoked command in '/home/pruizayastuy/ros2_industrial_ws/build/industrial_turtle' returned '0': /usr/bin/cmake --build /home/pruizayastuy/ros2_industrial_ws/build/industrial_turtle -- -j2 -l2
+[12.397s] Invoking command in '/home/pruizayastuy/ros2_industrial_ws/build/industrial_turtle': /usr/bin/cmake --install /home/pruizayastuy/ros2_industrial_ws/build/industrial_turtle
+[12.408s] -- Install configuration: ""
+[12.408s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/ament_index/resource_index/rosidl_interfaces/industrial_turtle
+[12.409s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle
+[12.411s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/srv
+[12.411s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/srv/detail
+[12.412s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/srv/detail/start_mission__functions.c
+[12.412s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/srv/detail/start_mission__functions.h
+[12.412s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/srv/detail/start_mission__struct.h
+[12.413s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/srv/detail/start_mission__type_support.h
+[12.415s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/srv/start_mission.h
+[12.415s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/msg
+[12.415s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/msg/detail
+[12.415s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/msg/detail/robot_status__functions.h
+[12.415s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/msg/detail/robot_status__type_support.h
+[12.415s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/msg/detail/robot_status__struct.h
+[12.415s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/msg/detail/robot_status__functions.c
+[12.418s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/msg/robot_status.h
+[12.418s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/msg/rosidl_generator_c__visibility_control.h
+[12.418s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/environment/library_path.sh
+[12.421s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/environment/library_path.dsv
+[12.421s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/lib/libindustrial_turtle__rosidl_generator_c.so
+[12.422s] -- Set runtime path of "/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/lib/libindustrial_turtle__rosidl_generator_c.so" to ""
+[12.423s] -- Up-to-date: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle
+[12.423s] -- Up-to-date: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/srv
+[12.424s] -- Up-to-date: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/srv/detail
+[12.424s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/srv/detail/start_mission__rosidl_typesupport_fastrtps_c.h
+[12.424s] -- Up-to-date: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/msg
+[12.425s] -- Up-to-date: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/msg/detail
+[12.425s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/msg/detail/robot_status__rosidl_typesupport_fastrtps_c.h
+[12.426s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[12.427s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/lib/libindustrial_turtle__rosidl_typesupport_fastrtps_c.so
+[12.427s] -- Set runtime path of "/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/lib/libindustrial_turtle__rosidl_typesupport_fastrtps_c.so" to ""
+[12.427s] -- Up-to-date: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle
+[12.427s] -- Up-to-date: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/srv
+[12.427s] -- Up-to-date: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/srv/detail
+[12.427s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/srv/detail/start_mission__builder.hpp
+[12.427s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/srv/detail/start_mission__struct.hpp
+[12.427s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/srv/detail/start_mission__type_support.hpp
+[12.427s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/srv/detail/start_mission__traits.hpp
+[12.427s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/srv/start_mission.hpp
+[12.427s] -- Up-to-date: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/msg
+[12.427s] -- Up-to-date: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/msg/detail
+[12.427s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/msg/detail/robot_status__type_support.hpp
+[12.427s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/msg/detail/robot_status__struct.hpp
+[12.427s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/msg/detail/robot_status__builder.hpp
+[12.427s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/msg/detail/robot_status__traits.hpp
+[12.427s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/msg/rosidl_generator_cpp__visibility_control.hpp
+[12.428s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/msg/robot_status.hpp
+[12.428s] -- Up-to-date: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle
+[12.428s] -- Up-to-date: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/srv
+[12.428s] -- Up-to-date: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/srv/detail
+[12.428s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/srv/detail/dds_fastrtps
+[12.442s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/srv/detail/start_mission__rosidl_typesupport_fastrtps_cpp.hpp
+[12.443s] -- Up-to-date: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/msg
+[12.443s] -- Up-to-date: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/msg/detail
+[12.443s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/msg/detail/dds_fastrtps
+[12.443s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/msg/detail/robot_status__rosidl_typesupport_fastrtps_cpp.hpp
+[12.443s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[12.443s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/lib/libindustrial_turtle__rosidl_typesupport_fastrtps_cpp.so
+[12.443s] -- Set runtime path of "/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/lib/libindustrial_turtle__rosidl_typesupport_fastrtps_cpp.so" to ""
+[12.443s] -- Up-to-date: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle
+[12.443s] -- Up-to-date: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/srv
+[12.443s] -- Up-to-date: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/srv/detail
+[12.443s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/srv/detail/start_mission__type_support.c
+[12.443s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/srv/detail/start_mission__rosidl_typesupport_introspection_c.h
+[12.443s] -- Up-to-date: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/msg
+[12.443s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[12.443s] -- Up-to-date: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/msg/detail
+[12.443s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/msg/detail/robot_status__rosidl_typesupport_introspection_c.h
+[12.443s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/msg/detail/robot_status__type_support.c
+[12.444s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/lib/libindustrial_turtle__rosidl_typesupport_introspection_c.so
+[12.444s] -- Set runtime path of "/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/lib/libindustrial_turtle__rosidl_typesupport_introspection_c.so" to ""
+[12.444s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/lib/libindustrial_turtle__rosidl_typesupport_c.so
+[12.444s] -- Set runtime path of "/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/lib/libindustrial_turtle__rosidl_typesupport_c.so" to ""
+[12.444s] -- Up-to-date: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle
+[12.444s] -- Up-to-date: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/srv
+[12.444s] -- Up-to-date: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/srv/detail
+[12.444s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/srv/detail/start_mission__type_support.cpp
+[12.444s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/srv/detail/start_mission__rosidl_typesupport_introspection_cpp.hpp
+[12.444s] -- Up-to-date: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/msg
+[12.444s] -- Up-to-date: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/msg/detail
+[12.445s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/msg/detail/robot_status__type_support.cpp
+[12.445s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/include/industrial_turtle/industrial_turtle/msg/detail/robot_status__rosidl_typesupport_introspection_cpp.hpp
+[12.445s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/lib/libindustrial_turtle__rosidl_typesupport_introspection_cpp.so
+[12.445s] -- Set runtime path of "/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/lib/libindustrial_turtle__rosidl_typesupport_introspection_cpp.so" to ""
+[12.445s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/lib/libindustrial_turtle__rosidl_typesupport_cpp.so
+[12.445s] -- Set runtime path of "/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/lib/libindustrial_turtle__rosidl_typesupport_cpp.so" to ""
+[12.445s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/environment/pythonpath.sh
+[12.445s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/environment/pythonpath.dsv
+[12.445s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/local/lib/python3.10/dist-packages/industrial_turtle-1.0.0-py3.10.egg-info
+[12.445s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/local/lib/python3.10/dist-packages/industrial_turtle-1.0.0-py3.10.egg-info/SOURCES.txt
+[12.445s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/local/lib/python3.10/dist-packages/industrial_turtle-1.0.0-py3.10.egg-info/dependency_links.txt
+[12.445s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/local/lib/python3.10/dist-packages/industrial_turtle-1.0.0-py3.10.egg-info/top_level.txt
+[12.446s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/local/lib/python3.10/dist-packages/industrial_turtle-1.0.0-py3.10.egg-info/PKG-INFO
+[12.446s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/local/lib/python3.10/dist-packages/industrial_turtle
+[12.446s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/local/lib/python3.10/dist-packages/industrial_turtle/industrial_turtle_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[12.446s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/local/lib/python3.10/dist-packages/industrial_turtle/__init__.py
+[12.446s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/local/lib/python3.10/dist-packages/industrial_turtle/_industrial_turtle_s.ep.rosidl_typesupport_c.c
+[12.446s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/local/lib/python3.10/dist-packages/industrial_turtle/libindustrial_turtle__rosidl_generator_py.so
+[12.446s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/local/lib/python3.10/dist-packages/industrial_turtle/srv
+[12.446s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/local/lib/python3.10/dist-packages/industrial_turtle/srv/__init__.py
+[12.446s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/local/lib/python3.10/dist-packages/industrial_turtle/srv/_start_mission_s.c
+[12.446s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/local/lib/python3.10/dist-packages/industrial_turtle/srv/_start_mission.py
+[12.446s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/local/lib/python3.10/dist-packages/industrial_turtle/_industrial_turtle_s.ep.rosidl_typesupport_introspection_c.c
+[12.446s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/local/lib/python3.10/dist-packages/industrial_turtle/industrial_turtle_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[12.446s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/local/lib/python3.10/dist-packages/industrial_turtle/msg
+[12.447s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/local/lib/python3.10/dist-packages/industrial_turtle/msg/__init__.py
+[12.447s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/local/lib/python3.10/dist-packages/industrial_turtle/msg/_robot_status_s.c
+[12.447s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/local/lib/python3.10/dist-packages/industrial_turtle/msg/_robot_status.py
+[12.447s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/local/lib/python3.10/dist-packages/industrial_turtle/industrial_turtle_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[12.447s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/local/lib/python3.10/dist-packages/industrial_turtle/_industrial_turtle_s.ep.rosidl_typesupport_fastrtps_c.c
+[12.522s] Listing '/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/local/lib/python3.10/dist-packages/industrial_turtle'...
+[12.522s] Compiling '/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/local/lib/python3.10/dist-packages/industrial_turtle/__init__.py'...
+[12.522s] Listing '/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/local/lib/python3.10/dist-packages/industrial_turtle/msg'...
+[12.522s] Compiling '/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/local/lib/python3.10/dist-packages/industrial_turtle/msg/__init__.py'...
+[12.522s] Compiling '/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/local/lib/python3.10/dist-packages/industrial_turtle/msg/_robot_status.py'...
+[12.522s] Listing '/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/local/lib/python3.10/dist-packages/industrial_turtle/srv'...
+[12.522s] Compiling '/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/local/lib/python3.10/dist-packages/industrial_turtle/srv/__init__.py'...
+[12.522s] Compiling '/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/local/lib/python3.10/dist-packages/industrial_turtle/srv/_start_mission.py'...
+[12.526s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/local/lib/python3.10/dist-packages/industrial_turtle/industrial_turtle_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[12.527s] -- Set runtime path of "/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/local/lib/python3.10/dist-packages/industrial_turtle/industrial_turtle_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[12.527s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/local/lib/python3.10/dist-packages/industrial_turtle/industrial_turtle_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[12.527s] -- Set runtime path of "/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/local/lib/python3.10/dist-packages/industrial_turtle/industrial_turtle_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[12.528s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/local/lib/python3.10/dist-packages/industrial_turtle/industrial_turtle_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[12.529s] -- Set runtime path of "/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/local/lib/python3.10/dist-packages/industrial_turtle/industrial_turtle_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[12.529s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/lib/libindustrial_turtle__rosidl_generator_py.so
+[12.530s] -- Set runtime path of "/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/lib/libindustrial_turtle__rosidl_generator_py.so" to ""
+[12.530s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/msg/RobotStatus.idl
+[12.531s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/srv/StartMission.idl
+[12.531s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/msg/RobotStatus.msg
+[12.531s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/srv/StartMission.srv
+[12.532s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/srv/StartMission_Request.msg
+[12.532s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/srv/StartMission_Response.msg
+[12.536s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/lib/industrial_turtle/robot_controller.py
+[12.543s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/lib/industrial_turtle/status_monitor.py
+[12.543s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/lib/industrial_turtle/mission_service.py
+[12.543s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/lib/industrial_turtle/emergency_service.py
+[12.543s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/lib/python3.10/site-packages/industrial_turtle
+[12.543s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/lib/python3.10/site-packages/industrial_turtle/__pycache__
+[12.544s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/lib/python3.10/site-packages/industrial_turtle/mission_service.py
+[12.544s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/lib/python3.10/site-packages/industrial_turtle/__init__.py
+[12.544s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/lib/python3.10/site-packages/industrial_turtle/robot_controller.py
+[12.544s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/lib/python3.10/site-packages/industrial_turtle/status_monitor.py
+[12.544s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/lib/python3.10/site-packages/industrial_turtle/emergency_service.py
+[12.544s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/ament_index/resource_index/package_run_dependencies/industrial_turtle
+[12.544s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/ament_index/resource_index/parent_prefix_path/industrial_turtle
+[12.544s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/environment/ament_prefix_path.sh
+[12.552s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/environment/ament_prefix_path.dsv
+[12.552s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/environment/path.sh
+[12.552s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/environment/path.dsv
+[12.552s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/local_setup.bash
+[12.552s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/local_setup.sh
+[12.552s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/local_setup.zsh
+[12.552s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/local_setup.dsv
+[12.552s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/package.dsv
+[12.552s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/ament_index/resource_index/packages/industrial_turtle
+[12.552s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/cmake/export_industrial_turtle__rosidl_generator_cExport.cmake
+[12.556s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/cmake/export_industrial_turtle__rosidl_generator_cExport-noconfig.cmake
+[12.556s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/cmake/export_industrial_turtle__rosidl_typesupport_fastrtps_cExport.cmake
+[12.556s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/cmake/export_industrial_turtle__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[12.556s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/cmake/export_industrial_turtle__rosidl_generator_cppExport.cmake
+[12.556s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/cmake/export_industrial_turtle__rosidl_typesupport_fastrtps_cppExport.cmake
+[12.556s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/cmake/export_industrial_turtle__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[12.556s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/cmake/industrial_turtle__rosidl_typesupport_introspection_cExport.cmake
+[12.556s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/cmake/industrial_turtle__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[12.556s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/cmake/industrial_turtle__rosidl_typesupport_cExport.cmake
+[12.556s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/cmake/industrial_turtle__rosidl_typesupport_cExport-noconfig.cmake
+[12.556s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/cmake/industrial_turtle__rosidl_typesupport_introspection_cppExport.cmake
+[12.556s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/cmake/industrial_turtle__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[12.556s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/cmake/industrial_turtle__rosidl_typesupport_cppExport.cmake
+[12.556s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/cmake/industrial_turtle__rosidl_typesupport_cppExport-noconfig.cmake
+[12.556s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/cmake/export_industrial_turtle__rosidl_generator_pyExport.cmake
+[12.556s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/cmake/export_industrial_turtle__rosidl_generator_pyExport-noconfig.cmake
+[12.557s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/cmake/rosidl_cmake-extras.cmake
+[12.557s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.557s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.557s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/cmake/ament_cmake_export_libraries-extras.cmake
+[12.557s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/cmake/ament_cmake_export_targets-extras.cmake
+[12.557s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[12.558s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[12.558s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/cmake/industrial_turtleConfig.cmake
+[12.559s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/cmake/industrial_turtleConfig-version.cmake
+[12.559s] -- Installing: /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle/package.xml
+[12.560s] Invoked command in '/home/pruizayastuy/ros2_industrial_ws/build/industrial_turtle' returned '0': /usr/bin/cmake --install /home/pruizayastuy/ros2_industrial_ws/build/industrial_turtle

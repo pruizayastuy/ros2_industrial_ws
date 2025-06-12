@@ -1,0 +1,27 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from industrial_turtle/srv/StartMission.srv
+// generated code does not contain a copyright notice
+
+
+module industrial_turtle {
+  module srv {
+    struct StartMission_Request {
+      string robot_id;
+
+      string mission_type;
+
+      double target_x;
+
+      double target_y;
+
+      int32 priority;
+    };
+    struct StartMission_Response {
+      boolean success;
+
+      string message;
+
+      double estimated_time;
+    };
+  };
+};

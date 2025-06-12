@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-1b626abb0e471832a50e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "industrial_turtle__py",
+					"jsonFile" : "directory-industrial_turtle__py-9e21dd66066ced4090b9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pruizayastuy/ros2_industrial_ws/build/industrial_turtle/industrial_turtle__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "industrial_turtle",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_industrial_turtle_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_industrial_turtle_egg-bd46d7a5f18fc0322f35.json",
+					"name" : "ament_cmake_python_build_industrial_turtle_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_industrial_turtle::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_industrial_turtle-07eaccb8ffaba9954656.json",
+					"name" : "ament_cmake_python_copy_industrial_turtle",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "industrial_turtle::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-industrial_turtle-27426e181179e5a63ab8.json",
+					"name" : "industrial_turtle",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "industrial_turtle__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-industrial_turtle__cpp-3cf0afdb49af8112b6e0.json",
+					"name" : "industrial_turtle__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "industrial_turtle__py::@707b5c16c391ddf9ccc2",
+					"jsonFile" : "target-industrial_turtle__py-9329500671864bb955fe.json",
+					"name" : "industrial_turtle__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "industrial_turtle__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-industrial_turtle__rosidl_generator_c-1d33a38ddcc510e5dacc.json",
+					"name" : "industrial_turtle__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "industrial_turtle__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-industrial_turtle__rosidl_generator_py-a86a213f401ec9394039.json",
+					"name" : "industrial_turtle__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "industrial_turtle__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-industrial_turtle__rosidl_typesupport_c-edbe25f3749d731e6ac0.json",
+					"name" : "industrial_turtle__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "industrial_turtle__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-industrial_turtle__rosidl_typesupport_c__pyext-6507a74fec3d3d71ba46.json",
+					"name" : "industrial_turtle__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "industrial_turtle__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-industrial_turtle__rosidl_typesupport_cpp-075155b42e52a6b8749f.json",
+					"name" : "industrial_turtle__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "industrial_turtle__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-industrial_turtle__rosidl_typesupport_fastrtps_c-128e46a2aa4eb2384622.json",
+					"name" : "industrial_turtle__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "industrial_turtle__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-industrial_turtle__rosidl_typesupport_fastrtps_c__pyext-3db8ed14c138bfe43a3a.json",
+					"name" : "industrial_turtle__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "industrial_turtle__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-industrial_turtle__rosidl_typesupport_fastrtps_cpp-e83a4f2120db12a412ac.json",
+					"name" : "industrial_turtle__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "industrial_turtle__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-industrial_turtle__rosidl_typesupport_introspection_c-df5bb8625fc5e1255159.json",
+					"name" : "industrial_turtle__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "industrial_turtle__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-industrial_turtle__rosidl_typesupport_introspection_c__pyext-02d4ffb7e16fc9c3b3c8.json",
+					"name" : "industrial_turtle__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "industrial_turtle__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-industrial_turtle__rosidl_typesupport_introspection_cpp-d0f1767179e0917a1ef8.json",
+					"name" : "industrial_turtle__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "industrial_turtle_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-industrial_turtle_uninstall-71918f2e8475d6828695.json",
+					"name" : "industrial_turtle_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-e178e57b6488dbe0427f.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/pruizayastuy/ros2_industrial_ws/build/industrial_turtle",
+		"source" : "/home/pruizayastuy/ros2_industrial_ws/src/industrial_turtle"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

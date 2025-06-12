@@ -1,0 +1,9 @@
+string robot_id
+float64 position_x
+float64 position_y
+float64 battery_level
+string current_task
+bool is_moving
+float64 speed
+string status
+int32 completed_tasks

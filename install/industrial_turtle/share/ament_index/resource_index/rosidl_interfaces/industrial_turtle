@@ -1,0 +1,6 @@
+msg/RobotStatus.idl
+msg/RobotStatus.msg
+srv/StartMission.idl
+srv/StartMission.srv
+srv/StartMission_Request.msg
+srv/StartMission_Response.msg
