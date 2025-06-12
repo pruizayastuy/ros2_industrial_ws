@@ -4,3 +4,6 @@ source;share/industrial_turtle/hook/pythonpath.sh
 source;share/industrial_turtle/hook/ament_prefix_path.ps1
 source;share/industrial_turtle/hook/ament_prefix_path.dsv
 source;share/industrial_turtle/hook/ament_prefix_path.sh
+source;../../build/industrial_turtle/share/industrial_turtle/hook/pythonpath_develop.ps1
+source;../../build/industrial_turtle/share/industrial_turtle/hook/pythonpath_develop.dsv
+source;../../build/industrial_turtle/share/industrial_turtle/hook/pythonpath_develop.sh
