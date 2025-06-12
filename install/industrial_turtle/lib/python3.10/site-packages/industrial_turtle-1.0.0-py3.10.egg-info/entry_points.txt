@@ -1,0 +1,6 @@
+[console_scripts]
+emergency_service = industrial_turtle.emergency_service:main
+mission_service = industrial_turtle.mission_service:main
+robot_controller = industrial_turtle.robot_controller:main
+status_monitor = industrial_turtle.status_monitor:main
+

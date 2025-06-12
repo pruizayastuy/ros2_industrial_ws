@@ -1,0 +1,2 @@
+Invoking command in '/home/pruizayastuy/ros2_industrial_ws/build/industrial_turtle': /usr/bin/cmake /home/pruizayastuy/ros2_industrial_ws -DCMAKE_INSTALL_PREFIX=/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle
+Invoked command in '/home/pruizayastuy/ros2_industrial_ws/build/industrial_turtle' returned '1': /usr/bin/cmake /home/pruizayastuy/ros2_industrial_ws -DCMAKE_INSTALL_PREFIX=/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle

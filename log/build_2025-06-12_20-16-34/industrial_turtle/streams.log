@@ -1,0 +1,25 @@
+[0.746s] Invoking command in '/home/pruizayastuy/ros2_industrial_ws/src/industrial_turtle': PYTHONPATH=/home/pruizayastuy/ros2_industrial_ws/build/industrial_turtle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/industrial_turtle build --build-base /home/pruizayastuy/ros2_industrial_ws/build/industrial_turtle/build install --record /home/pruizayastuy/ros2_industrial_ws/build/industrial_turtle/install.log --single-version-externally-managed install_data
+[1.063s] running egg_info
+[1.066s] writing ../../build/industrial_turtle/industrial_turtle.egg-info/PKG-INFO
+[1.066s] writing dependency_links to ../../build/industrial_turtle/industrial_turtle.egg-info/dependency_links.txt
+[1.068s] writing entry points to ../../build/industrial_turtle/industrial_turtle.egg-info/entry_points.txt
+[1.069s] writing requirements to ../../build/industrial_turtle/industrial_turtle.egg-info/requires.txt
+[1.071s] writing top-level names to ../../build/industrial_turtle/industrial_turtle.egg-info/top_level.txt
+[1.075s] reading manifest file '../../build/industrial_turtle/industrial_turtle.egg-info/SOURCES.txt'
+[1.077s] writing manifest file '../../build/industrial_turtle/industrial_turtle.egg-info/SOURCES.txt'
+[1.079s] running build
+[1.079s] running build_py
+[1.080s] running install
+[1.081s] running install_lib
+[1.082s] running install_data
+[1.082s] copying package.xml -> /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/share/industrial_turtle
+[1.084s] running install_egg_info
+[1.088s] removing '/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/lib/python3.10/site-packages/industrial_turtle-1.0.0-py3.10.egg-info' (and everything under it)
+[1.095s] Copying ../../build/industrial_turtle/industrial_turtle.egg-info to /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/lib/python3.10/site-packages/industrial_turtle-1.0.0-py3.10.egg-info
+[1.095s] running install_scripts
+[1.122s] Installing emergency_service script to /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/lib/industrial_turtle
+[1.125s] Installing mission_service script to /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/lib/industrial_turtle
+[1.125s] Installing robot_controller script to /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/lib/industrial_turtle
+[1.127s] Installing status_monitor script to /home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/lib/industrial_turtle
+[1.128s] writing list of installed files to '/home/pruizayastuy/ros2_industrial_ws/build/industrial_turtle/install.log'
+[1.163s] Invoked command in '/home/pruizayastuy/ros2_industrial_ws/src/industrial_turtle' returned '0': PYTHONPATH=/home/pruizayastuy/ros2_industrial_ws/build/industrial_turtle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pruizayastuy/ros2_industrial_ws/install/industrial_turtle/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/industrial_turtle build --build-base /home/pruizayastuy/ros2_industrial_ws/build/industrial_turtle/build install --record /home/pruizayastuy/ros2_industrial_ws/build/industrial_turtle/install.log --single-version-externally-managed install_data
